@@ -13,10 +13,12 @@
 /* Основные шрифты */
 body {
 color: var(--primery-text-color);
-background-color: #E5E5E5;
 font-family: 'Roboto', sans-serif;
-font-style: normal;
 letter-spacing: 0.03em;
+}
+
+a {
+color: var(--accent-color);
 }
 
 .list {
@@ -25,7 +27,7 @@ list-style: none;
 
 /* Cite nav */
 .site-nav {
-background: #FFFFFF;
+background-color: #FFFFFF;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -41,13 +43,13 @@ color: var(--accent-color);
 .link {
 text-decoration: none;
 font-size: 14px;
-font-style: normal;
 line-height: 1.14;
 font-family: inherit;
 }
 
 .site-nav
-.link.current {
+.link.current
+{
 color: var(--accent-color);
 }
 
@@ -79,10 +81,13 @@ text-decoration: none;
 }
 
 /* Section main */
-.section-main {
-color: #FFFFFF;
-background: #2F303A;
 
+.section-main {
+background: #2F303A;
+}
+
+.section-headline {
+color: #FFFFFF;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -96,7 +101,6 @@ background-color: #188CE8;}
 .button {
 background-color: var(--accent-color);
 color:  #FFFFFF;
-
 font-family: inherit;
 font-weight: 700;
 font-size: 16px;
@@ -118,7 +122,6 @@ text-transform: uppercase;
 
 .text-desc {
 color: var(--title-text-color);
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 }
@@ -143,13 +146,16 @@ text-align: center;
 
 .text-user {
 color: var(--title-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
 }
 
 /* Footer */
+address {
+font-style: normal;
+}
+
 .maps {
 color: #FFFFFF;
 }
@@ -177,7 +183,6 @@ background-color: var(--accent-color);
 .current {
 color: var(--primery-text-color);
 background-color: #F5F4FA;
-
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -194,8 +199,6 @@ letter-spacing: 0.06em;
 
 .text-site {
 color: var(--title-text-color);
-font-weight: 400;
-font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 }
